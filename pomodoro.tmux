@@ -5,9 +5,9 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 POMODORO_MINS_FILE="$CURRENT_DIR/scripts/user_mins.txt";
 POMODORO_BREAK_MINS_FILE="$CURRENT_DIR/scripts/user_break_mins.txt"
 
-default_start_pomodoro="p"
+default_start_pomodoro="o"
 start_pomodoro="@pomodoro_start"
-default_cancel_pomodoro="P"
+default_cancel_pomodoro="O"
 cancel_pomodoro="@pomodoro_cancel"
 
 pomodoro_status="#($CURRENT_DIR/scripts/pomodoro.sh)"

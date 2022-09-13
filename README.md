@@ -58,10 +58,10 @@ set -g @plugin 'olimorris/tmux-pomodoro-plus'
 ## :rocket: Usage
 
 ### Default keybindings
-- `<tmux-prefix> p` to start a pomodoro
-- `<tmux-prefix> P` to cancel a pomodoro
-- `<tmux-prefix> C-p` to open the pomodoro timer menu
-- `<tmux-prefix> M-p` to set a custom pomodoro timer
+- `<tmux-prefix> o` to start a pomodoro
+- `<tmux-prefix> O` to cancel a pomodoro
+- `<tmux-prefix> C-o` to open the pomodoro timer menu
+- `<tmux-prefix> M-o` to set a custom pomodoro timer
 
 > **Note:** The pomodoro timer menu and custom pomodoro input is always `<ctrl> + [your start pomodoro key]`
 
@@ -77,8 +77,8 @@ set -g status-right "#{pomodoro_status}"
 The default configuration:
 
 ```bash
-set -g @pomodoro_start 'p'                  # Start a Pomodoro with tmux-prefix + p
-set -g @pomodoro_cancel 'P'                 # Cancel a Pomodoro with tmux-prefix key + P
+set -g @pomodoro_start 'o'                  # Start a Pomodoro with tmux-prefix + o
+set -g @pomodoro_cancel 'O'                 # Cancel a Pomodoro with tmux-prefix key + O
 
 set -g @pomodoro_mins 25                    # The duration of the pomodoro
 set -g @pomodoro_break_mins 5               # The duration of the break after the pomodoro
